@@ -53,6 +53,10 @@
     color: rgba(0, 35, 122, 0.5);
 }
 
+.about{
+    min-height: 100vh;
+    background: #4A4A4A;
+}
 
 .about-text{
    width: 75%;
@@ -117,8 +121,14 @@
     line-height: 50vh;
 }
 
-.col-md-4{
+.col-md-3{
     padding: 0;
+}
+
+.col-md-4{
+    border: 1px solid invisible;
+    border-radius: 300px;
+    padding: 20px;
 }
 
 .family-pic{
