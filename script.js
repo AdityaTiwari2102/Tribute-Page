@@ -1,4 +1,4 @@
-4$(document).ready(function(){
+$(document).ready(function(){
 
   $('#about-li, .about-li').click(function(){
     	$('html, body').animate({
