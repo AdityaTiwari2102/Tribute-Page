@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Light', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*transition: all 0.35s ease-out;*/
+}
+
+.first-div{
+    min-height: 100vh;
+}
+
+.cover-pic{
+    width: 100%;
+    height: 100vh;
+}
+
+#nav-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #EC644A;
+    width: 100%;
+    padding: 1.8em 0;
+}
+
+#nav-hero ul{
+    margin: 0;
+    text-align: center;
+}
+
+#nav-hero ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav-hero ul li a {
+    display: block;
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.4375rem 2rem;
+    opacity: 0.5;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.35s ease-out;
+}
+
+#nav-hero ul li a:focus, #nav-hero ul li a:hover {
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.about{
+    min-height: 100vh;
+    background: #4A4A4A;
+}
+
+.about-text{
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25%;
+}
+
+.about-text h1{
+    color: #858586;
+    letter-spacing: 3;
+}
+
+.about-text p{
+    color: #fff;
+    font-family: 'Montserrat Light', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2;
+}
+
+@media only screen and (max-width: 991px) {
+    .about-text{
+        margin-top: 0;
+    }   
+}
+
+.about-slider{
+    height: 100%;
+}
+
+.slider-image{
+    width: 100%;
+     min-height: 50vh;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+.col-md-6{
+    padding: 0;
+}
+
+.family{
+     min-height: 100vh;
+    background: url(http://4.bp.blogspot.com/-kvTiv3FMdYE/T6C7sNvEO0I/AAAAAAAAAPM/gT9q1TBVhgw/s1600/Grunge+wall.png);
+}
+
+.family-thumbnail, .achitecture-thumbnail{
+     min-height: 50vh;
+}
+
+.family-heading{
+    background: #B1B2B4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a4a4a;
+    line-height: 50vh;
+}
+
+.col-md-4{
+    padding: 0;
+}
+
+.family-pic{
+    width: 100%;
+    height: 50vh;
+}
+
+.family-pic:hover{
+    cursor: pointer;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    transition: all 0.35s ease-out;
+}
+
+.achitecture-pic:hover{
+     width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+}
+
+.achitecture{
+    min-height: 50vh;
+    background: #4A4A4A;
+}
+
+.achitecture-pic{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 75%;
+    height: 35vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease-in-out;
+}
+
+.achitecture-text{
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat Light', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 0;
+}
+
+.achitecture-text h1, .contact-us-heading h1{
+    color: #858586;
+    letter-spacing: 3;
+    font-size: 3em;
+}
+
+.achitecture-text p{
+    font-family: 'Montserrat Light', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 2;
+}
+
+@media only screen and (max-width: 991px) {
+    .architecture -text{
+        margin-top: 0;
+    }   
+}
+
+.buddhism{
+    background: #EC644A;
+    min-height: 50vh;
+}
+
+.buddhism-heading{
+    letter-spacing: 3;
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    background: #EC644A;
+    transition: none;
+    height: 44vh;
+}
+
+.bx-wrapper .bx-controls-direction a{
+    top: 66%;
+}
+
+.buddhism-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buddhism-detail{
+    min-height: 100vh;
+}
+
+.buddhism-thubnail1{
+    min-height: 50vh;
+    background: #B1B2B4;
+}
+
+.buddhism-thubnail2{
+    min-height: 50vh;
+    background: #4A4A4A;
+}
+
+.buddhism-thubnail3{
+    background: #363636;
+    min-height: 50vh;
+}
+
+.buddhism-thubnail4{
+    background: #EC644A;
+    min-height: 50vh;
+}
+
+.buddhism-thubnail5{
+    background: #fff;
+    min-height: 50vh;
+}
+
+.buddhism-thubnail6{
+    background: #E7E7E7;
+    min-height: 50vh;
+}
+
+.bg1{
+    background: #ECECEC;
+}
+
+.bg2{
+    background: #E4E4E4;
+}
+
+.contact-us-heading{
+    background: #4A4A4A;
+    min-height: 50vh;
+}
+
+.map{
+    background: #fff;
+    min-height: 50vh;
+}
+
+.contact-us-thumbnail{
+    min-height: 50vh;
+    border: 10px solid transparent;
+}
+
+.contact-us-image{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.contact-us-heading h1{
+    font-size: 3.5em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us-thumbnail:hover{
+    cursor: pointer;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+}
+
+.contact-us-text{
+    letter-spacing: 1;
+    font-family: 'Montserrat Light', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3%;
+    left: 3%;   
+}
+
+.contact-us-text h6{
+    margin-bottom: -5px;
+    font-size: 11px;
+}
+
+.contact-us-text h6:first-child{
+    color: #EC644A;
+}
+
+.footer{
+    min-height: 15vh;
+    background: #EC644A;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.footer-icons ul li{
+    list-style: none;
+    display: inline;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.footer h4{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    letter-spacing: 1;
+    padding-top: 20px;
+}
+
+.footer ul{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.footer h5{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1;
+}
+
+.footer a{
+    color: #ECECEC;
+    font-weight: bold;
+}
+
+.footer-icons{
+    margin-top: 30px;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+
+
+.footer-icons ul li{
+    margin-right: 15px;  
+}
+
+.va{
+    vertical-align: middle;
+    color: #fff;
+}
+
+.fa-facebook-square:hover{
+    color: #3B5998;
+}
+
+.fa-twitter-square:hover{
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover{
+    color: #000;
+}
+
+.fa-linkedin-square:hover{
+    color: #148FC0;
+}
+
+.fa-github-square:hover{
+    color: #24292E
+}
+
+.fa-codepen:hover{
+    color: #000;
+}
+
+.budha-img{
+    width: 80%;
+    height: 65%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.7s ease-in-out;
+}
+
+.budha-img:hover{
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+}
+
+.buddhism-thubnail1 h3{
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #4A4A4A;
+    line-height: 50vh;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+
+.quote{
+    width: 52%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease-out;
+}
+
+.quote-h1{
+      color: #fff;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 2.2em;
+      letter-spacing: 1;
+}
+
+@media only screen and (min-width: 500px) {
+    .quote:hover{
+        width: 82%;
+        font-size: 1.5em;
+        transition: all 0.7s ease-out;
+    }
+}
+
+.display-none{
+    display: none;
+}
+
+.navbar{
+    min-height: 7em;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #B1B2B4;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.2em;
+    letter-spacing: -1;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #EC644A;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+    display: block;
+    font-size: 1.1em;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #B1B2B4;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #4A4A4A;
+}
+
+header{
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: none;
+}
+
+.navbar-default .navbar-toggle {
+   border-color: #fff;
+}
+
+.middle{
+    margin-top: 2%;
+}
+
+.visible{
+    display: block;
+}
+
+@media all and (max-width: 750px) {
+    #nav-hero{
+        display: none !important;
+    }
+
+    .middle{
+        margin-top: 0;
+    }
+
+    .navbar{
+        min-height: 3em;
+    }   
+
+    .first-div {
+        min-height: 50vh;
+    }
+
+    .cover-pic {
+        width: 100%;
+        height: 50vh;
+    }
+}
