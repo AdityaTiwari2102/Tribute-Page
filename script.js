@@ -34,11 +34,11 @@ $(document).ready(function(){
          $( "#nav-hero" ).removeClass('display-none');
       }
 
-      if(scroll >= 500) {
+      if(scroll >= 540) {
          $( "header" ).addClass('visible');
       }
 
-      if(scroll < 500) {
+      if(scroll < 540) {
          $( "header" ).removeClass('visible');
       }
 
